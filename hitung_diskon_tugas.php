@@ -12,10 +12,10 @@
         
         <?php
         // data pembeli dan buku
-        $nama_pembeli = "Budi Santoso";
-        $judul_buku = "Laravel Advanced";
-        $harga_satuan = 150000;
-        $jumlah_beli = 4;
+        $nama_pembeli = "Rihanna Putri";
+        $judul_buku = "JavaScript untuk pemula";
+        $harga_satuan = 130000;
+        $jumlah_beli = 5;
         $is_member = true; 
         
         // subtotal sebelum diskon
