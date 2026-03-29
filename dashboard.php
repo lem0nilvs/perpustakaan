@@ -9,30 +9,30 @@
 </head>
 <body>
     <?php
-    // ========== DATA PERPUSTAKAAN ==========
+    // ======= DATA PERPUSTAKAAN =======
     $nama_perpus = "Perpustakaan Digital Universitas ABC";
     $alamat = "Jl. Pendidikan No. 123, Jakarta";
     $telepon = "(021) 1234-5678";
     $email = "info@perpusdigunabc.ac.id";
     
-    // ========== STATISTIK BUKU ==========
+    // ======= STATISTIK BUKU =======
     $total_buku = 1500;
     $buku_dipinjam = 234;
     $buku_tersedia = $total_buku - $buku_dipinjam;
     $persentase_dipinjam = ($buku_dipinjam / $total_buku) * 100;
     $persentase_tersedia = ($buku_tersedia / $total_buku) * 100;
     
-    // ========== STATISTIK ANGGOTA ==========
+    // ======= STATISTIK ANGGOTA =======
     $total_anggota = 450;
     $anggota_aktif = 378;
     $anggota_nonaktif = $total_anggota - $anggota_aktif;
     
-    // ========== TRANSAKSI HARI INI ==========
+    // ======= TRANSAKSI HARI INI =======
     $transaksi_hari_ini = 15;
     $peminjaman = 9;
     $pengembalian = 6;
     
-    // ========== BUKU TERPOPULER ==========
+    // ======= BUKU TERPOPULER =======
     $buku1 = "Pemrograman Web PHP";
     $buku2 = "Database MySQL";
     $buku3 = "Laravel Framework";
@@ -41,11 +41,11 @@
     $pinjam2 = 38;
     $pinjam3 = 32;
     
-    // ========== INFORMASI WAKTU ==========
+    // ======= INFORMASI WAKTU =======
     $hari_ini = date('l, d F Y');
     $jam_sekarang = date('H:i:s');
     
-    // Tentukan salam berdasarkan waktu
+    // salam berdasarkan waktu
     $jam = date('H');
     if ($jam >= 5 && $jam < 12) {
         $salam = "Selamat Pagi";
