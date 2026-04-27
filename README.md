@@ -84,3 +84,64 @@
 
 ### Top 5 Buku Termahal
 ![Hasil Query Laporan 2](sshasilp6/tu1_5_2.png)
+
+
+
+# Tugas 2
+## 1. Entity Relationship Diagram (ERD)
+
+![ERD Database Perpustakaan](sshasilp6/erd_pemweb.png)
+
+---
+
+## 2. Struktur Semua Tabel:
+
+### 2.1 Relasi Antar Tabel (Designer View)
+![Desain Relasi](sshasilp6/relasi%20tu2.png)
+
+### 2.2 Struktur Tabel Buku (Detail Foreign Key)
+![Struktur Tabel Buku](sshasilp6/struktur%20buku.png)
+
+---
+
+## 3. Data di Setiap Tabel
+
+### 3.1 Data Tabel Kategori Buku & Penerbit
+![Data Kategori dan Penerbit](sshasilp6/kategori%20buku%20struktur%20tabel.png)
+![Data Kategori dan Penerbit](sshasilp6/data%20penerbit.png)
+
+### 3.2 Data Tabel Buku (Terdiri dari 15 Buku Minimal)
+![Data Buku Lengkap](sshasilp6/data%20buku.png)
+
+---
+
+## 4. Hasil Query JOIN
+### 4.1 Tampilkan Buku dengan Nama Kategori dan Penerbit
+![Hasil JOIN 1](sshasilp6/4.1%20join.png)
+
+### 4.2 Jumlah Buku per Kategori
+![Hasil JOIN 2](sshasilp6/4.2jumlah%20buku%20perkatogori.png)
+
+### 4.3 Jumlah Buku per Penerbit
+![Hasil JOIN 3](sshasilp6/4.3%20jumlah%20buku%20perpenerbit.png)
+
+### 4.4 Buku Beserta Detail Lengkap (Kategori, Penerbit, Rak)
+![Hasil JOIN 4](sshasilp6/4.4%20buku%20beserta%20detail%20lengkap.png)
+
+---
+
+## 5. Fitur tambahan
+
+### 5.1 Tambah Tabel `rak` dengan Relasi ke Buku
+![Tabel Rak](sshasilp6/data%20rak.png)
+
+### 5.2 Implementasi *Soft Delete*
+Seluruh tabel memiliki kolom `is_deleted`. 
+![Soft Delete Bukti](sshasilp6/is_deletedbonus2.png)
+![Stored Procedure Bukti](sshasilp6/5.%20buku%20is%20delete.png)
+*(Buku dengan ID 1 diubah status is_deleted-nya menjadi 1, bukan dihapus permanen dari sistem).*
+
+### 5.3 *Stored Procedure* untuk Operasi Umum
+Pembuatan dan pemanggilan *Stored Procedure* `sp_cek_stok_kritis` dan `sp_soft_delete_buku`:
+![Stored Procedure Bukti](sshasilp6/sp_kurangdari5.png)
+![Stored Procedure Bukti](sshasilp6/stored%20procedur.png)
