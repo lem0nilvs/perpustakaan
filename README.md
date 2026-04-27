@@ -1,4 +1,5 @@
-# Tugas 1: Eksplorasi Database dengan Query
+# Tugas Pertemuan 6
+## Tugas 1: Eksplorasi Database dengan Query
 
 **Nama:** Rahmawati Azizah Afriliani  
 **NIM:** 60324025
